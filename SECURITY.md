@@ -2,11 +2,11 @@
 
 ## Scope
 
-This repository is a **reference control plane** for creator partnership governance,
-obligation review, and launch posture across partnership workflows. It ships
-synthetic, non-sensitive sample data only. It is not a production system of record
-and should not be deployed with real customer, creator, or contract data without an
-independent security review.
+This repository is a **reference control plane** for creator-partnership deal
+desk workflows — deal triage, obligation-risk mapping, and launch-readiness
+posture. It ships synthetic, non-sensitive sample data only. It is not a
+production system of record and should not be deployed with real deal, creator,
+or customer data without an independent security review.
 
 ## Supported versions
 
@@ -31,4 +31,4 @@ We aim to acknowledge within 3 business days.
 
 ### Known / accepted advisories
 
-_None at v0.1-shipped._
+_None at v1.0-prod._
