@@ -38,7 +38,7 @@ describe("render", () => {
     for (const change of dealChanges) {
       expect(html).toContain(change.changeId);
     }
-    expect(html).toContain('class="tag red"');
+    expect(html).toContain('class="st needs"');
   });
 
   test("obligation risks list every block with readiness tags", () => {
@@ -46,8 +46,8 @@ describe("render", () => {
     for (const block of obligationBlocks) {
       expect(html).toContain(block.riskId);
     }
-    expect(html).toContain('class="tag red"');
-    expect(html).toContain('class="tag yellow"');
+    expect(html).toContain('class="bad"');
+    expect(html).toContain('Launch calendar reliability');
   });
 
   test("launch readiness shows packets and completeness scores", () => {
